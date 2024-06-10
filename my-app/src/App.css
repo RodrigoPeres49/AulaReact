@@ -1,0 +1,42 @@
+.header{
+  background-color: rgb(48, 45, 45);
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.header>h1{
+  align-items: center;
+  
+}
+.logo{
+  width: 200px;
+  height: 100px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu{
+  background-color: aqua;
+  height: 80vh;
+  width: 20%;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.body{
+  background-color: yellow;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+}
+.menu_and_body{
+  display: flex;
+  flex-direction: row;
+}
+.menu_and_body::-webkit-scrollbar{
+  display: none;
+}
+.footer{
+  background-color: brown;
+}
