@@ -1,11 +1,12 @@
 import '../App.css';
 import '../App.js';
 import React from 'react';
+import Profile from './other/profile.jsx';
 
 function Footer() {
   return (
     <div className="footer">
-      <h2>Rodrigo Peres de Souza</h2>
+      <Profile/>
     </div>
   );
 }
