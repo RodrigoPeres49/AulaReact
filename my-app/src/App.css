@@ -36,6 +36,8 @@
   height: 80vh;
   align-items: center;
   scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
 }
 .menu_and_body{
   display: flex;
@@ -47,7 +49,6 @@
 .footer{
   background-color: brown;
 }
-
 
 .selecao{
   padding: 0;
@@ -82,23 +83,33 @@
   cursor: pointer;
 }
 
+.selecao ul{
+  margin: 0;
+}
+
 .selecao li{
   margin: 30px;
   margin-left: 10px;
   align-items: center;
 }
-.selecao li:hover {
-  background-color: gray;
-}
 
-.selecao li a {
+.selecao a{
+  padding: 0;
+  margin: 30px;
+  margin-left: 10px;
+  align-items: center;
+  font-weight: bold;
   text-decoration: none;
   color: white;
-  display: block; /* Torna o link como bloco para que ele preencha todo o li */
-  transition: color 0.3s, background-color 0.3s;
 }
 
+
 .selecao li a:hover {
+  background-color: darkgray;
+  color: gray;
+}
+
+.selecao li label:hover {
   background-color: darkgray;
   color: gray;
 }

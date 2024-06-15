@@ -1,5 +1,6 @@
 
 import './App.css';
+import { UserProvider } from './context/usercontext.jsx';
 
 // Importação das paginas em pages
 
@@ -17,9 +18,15 @@ function App() {
         <Main_Right/>
       </div>
       <Footer/>
-
     </div>
   );
 }
 
-export default App;
+function AppWrapper() {
+  return (
+    <UserProvider>
+      <App />
+    </UserProvider>
+  );
+}
+export default AppWrapper;
