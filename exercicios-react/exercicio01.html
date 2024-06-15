@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+<body>
+    <script>
+
+        // 1 - Tabela de preços
+        // Uma loja precisa atualizar os preços de seus produtos, nesse exercício temos uma lista com os preços de cada produto
+        // Utilize o método map para criar um novo array, os produtos devem ser acrescidos de 20% do seu valor atual. -->
+
+        const produtos = [15, 22.4, 30, 7, 12.4, 50, 100, 12, 1.99, 20]
+        const desconto = produtos.map((elemento) =>{
+            return elemento*0.80 }) 
+        document.write(desconto)
+    </script>
+
+</body>
+</html>
