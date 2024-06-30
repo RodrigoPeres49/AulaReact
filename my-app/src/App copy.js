@@ -1,7 +1,6 @@
 
 import './App.css';
 import { UserProvider } from './context/usercontext.jsx';
-import { BrowserRouter, Route, Routes }  from 'react-router-dom';
 
 // Importação das paginas em pages
 
@@ -17,14 +16,10 @@ function App() {
       <Header/>
       <div className='menu_and_body'>
         <Main_Left/>
-        <Routes>
-          <Route path="/" Component={Login}/> {/* 👈 Renders at /app/ */}
-          <Route path="/lista" Component={Main_Right}/>
-        </Routes>
+        <Login/>
       </div>
       <Footer/>
     </div>
-    
   );
 }
 

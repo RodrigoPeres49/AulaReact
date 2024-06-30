@@ -1,6 +1,7 @@
 import '../App.css';
 import '../App.js';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Main_Left() {
   return (
@@ -10,7 +11,7 @@ function Main_Left() {
       
       <ul className='selecao'>
         <li>
-          <a href='#'>Home</a>
+          <Link to={'/'}>Home</Link>
         </li>
       </ul>
 
@@ -19,7 +20,7 @@ function Main_Left() {
           <input type="checkbox" id="sobre" />
           <label for="sobre">Selecionar Opção</label>
           <ul>
-            <li><a href="#">Lista</a></li>
+            <li><Link to={'/lista'}>Lista</Link></li>
             <li><a href="#">Cadastrar</a></li>
             <li><a href="#">Editar Pessoa</a></li>
           </ul>
