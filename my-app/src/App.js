@@ -8,8 +8,8 @@ import { BrowserRouter, Route, Routes }  from 'react-router-dom';
 import Header from './pages/header.jsx'
 import Footer from './pages/footer.jsx'
 import Main_Left from './pages/main-left.jsx';
-import Main_Right from './pages/main-right.jsx';
-import Login from './pages/other/login.jsx';
+import Login from './pages/main_right/login.jsx';
+import List from './pages/main_right/people_list.jsx';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Main_Left/>
         <Routes>
           <Route path="/" Component={Login}/> {/* 👈 Renders at /app/ */}
-          <Route path="/lista" Component={Main_Right}/>
+          <Route path="/lista" Component={List}/>
         </Routes>
       </div>
       <Footer/>
