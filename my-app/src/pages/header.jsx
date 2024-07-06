@@ -5,7 +5,7 @@ import React from 'react';
 function Header() {
   return (
     <div className="header">
-      <h1>Bem vindo</h1>
+      <h1>Página com React</h1>
     </div>
 
   );

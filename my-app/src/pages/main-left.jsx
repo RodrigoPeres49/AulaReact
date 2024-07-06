@@ -21,8 +21,9 @@ function Main_Left() {
           <label for="sobre">Selecionar Opção</label>
           <ul>
             <li><Link to={'/lista'}>Lista</Link></li>
-            <li><a href="#">Cadastrar</a></li>
-            <li><a href="#">Editar Pessoa</a></li>
+            <li><Link to={'/cadastro'}>Cadastrar</Link></li>
+            <li><Link to={'/editar'}>Editar Pessoa</Link></li>
+            <li><Link to={'/usuario/<int:id>'}>Dados do Usuário</Link></li>
           </ul>
         </li>
           

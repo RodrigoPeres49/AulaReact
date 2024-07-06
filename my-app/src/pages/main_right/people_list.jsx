@@ -23,7 +23,15 @@ function List() {
   return (
     <div className="body">
       <Home/>
-      <Pessoas pessoas={pessoas}/>
+      <div className='people'>
+        <table>
+                  <thead>
+                      <tr><td className='people-list-title' colspan="4">Lista de Pessoas</td></tr>
+                      <tr><td>Nome</td><td>Sobrenome</td><td>Idade</td><td>Profissão</td></tr>
+                  </thead>
+        <Pessoas pessoas={pessoas}/>
+        </table>
+      </div>
     </div>
   );
 }

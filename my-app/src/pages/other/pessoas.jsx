@@ -6,13 +6,16 @@ function Pessoas({pessoas}){
 
     return (
         pessoas.map((element, index) =>{
-            return (<ul>
-                <li key={index}>Nome: {element['nome']}</li>
-                <li>Sobrenome: {element['sobrenome']}</li>
-                <li>Idade: {element['idade']}</li>
-                <li>Profissão: {element['profissao']}</li>
-
-            </ul>)
+            return (
+                <tbody>
+                    <tr>
+                        <td key={index}> {element['nome']}</td>
+                        <td>{element['sobrenome']}</td>
+                        <td>{element['idade']}</td>
+                        <td>{element['profissao']}</td>
+                    </tr>
+                </tbody>
+            )
         })
     )
 }

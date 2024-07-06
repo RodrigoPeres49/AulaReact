@@ -9,6 +9,7 @@ import Header from './pages/header.jsx'
 import Footer from './pages/footer.jsx'
 import Main_Left from './pages/main-left.jsx';
 import Login from './pages/main_right/login.jsx';
+import Register from './pages/main_right/register.jsx';
 import List from './pages/main_right/people_list.jsx';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" Component={Login}/> {/* 👈 Renders at /app/ */}
           <Route path="/lista" Component={List}/>
+          <Route path="/cadastro" Component={Register}/>
         </Routes>
       </div>
       <Footer/>
