@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "João",
+    "sobrenome": "Silva",
+    "idade": 25,
+    "profissao": "Engenheiro",
+    "matricula": 100001,
+    "atestados": [],
+    "ativo": 0
+  },
+  {
+    "nome": "Maria",
+    "sobrenome": "Santos",
+    "idade": 30,
+    "profissao": "Professor",
+    "matricula": 100002,
+    "atestados": [],
+    "ativo": 1
+  },
+  {
+    "nome": "Pedro",
+    "sobrenome": "Oliveira",
+    "idade": 40,
+    "profissao": "Médico",
+    "matricula": 100003,
+    "atestados": [],
+    "ativo": 1
+  },
+  {
+    "nome": "Ana",
+    "sobrenome": "Ferreira",
+    "idade": 35,
+    "profissao": "Advogado",
+    "matricula": 100004,
+    "atestados": [],
+    "ativo": 1
+  },
+  {
+    "nome": "Lucas",
+    "sobrenome": "Costa",
+    "idade": 28,
+    "profissao": "Designer",
+    "matricula": 100005,
+    "atestados": [],
+    "ativo": 1
+  },
+  {
+    "nome": "Carla",
+    "sobrenome": "Souza",
+    "idade": 22,
+    "profissao": "Estudante",
+    "matricula": 100006,
+    "atestados": [],
+    "ativo": 1
+  },
+  {
+    "nome": "Marcos",
+    "sobrenome": "Almeida",
+    "idade": 38,
+    "profissao": "Programador",
+    "matricula": 100007,
+    "atestados": [],
+    "ativo": 1
+  },
+  {
+    "nome": "Juliana",
+    "sobrenome": "Ribeiro",
+    "idade": 32,
+    "profissao": "Psicóloga",
+    "matricula": 100008,
+    "atestados": [],
+    "ativo": 1
+  },
+  {
+    "nome": "Rafael",
+    "sobrenome": "Pereira",
+    "idade": 45,
+    "profissao": "Empresário",
+    "matricula": 100009,
+    "atestados": [],
+    "ativo": 1
+  },
+  {
+    "nome": "Camila",
+    "sobrenome": "Gomes",
+    "idade": 27,
+    "profissao": "Enfermeira",
+    "matricula": 100010,
+    "atestados": [],
+    "ativo": 1
+  },
+  {
+    "nome": "Rodrigo",
+    "sobrenome": "Souza",
+    "idade": 31,
+    "profissao": "Analista de Sistemas",
+    "matricula": 100011,
+    "atestados": [],
+    "ativo": 0
+  }
+]
