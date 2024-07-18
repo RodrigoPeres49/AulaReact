@@ -1,0 +1,62 @@
+
+/* PARTE DE CADA SELETOR DO MENU ESTILIZADA */
+
+/* DIVIDOR DA AREA DE SELEÇÃO */
+
+.selecao{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+}
+
+/* REMOVER BORDAS DA LISTA  */
+
+.selecao ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* TAMANHO E ESPAÇAMENTO DOS ELEMENTOS DA LISTA */
+
+.selecao li{
+
+    /* POSICIONAMENTO DE CADA ELEMENTO */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+    /* REMOVER MARGEM E PREENCHIMENTO DE CADA CAMPO E COLOCAR UMA MARGEM EM CIMA E ABAIXO PARA DAR UM ESPAÇAMENTO ENTRE OS CAMPOS */
+
+    margin: 0;
+    margin-block: 30px ;
+    padding: 0;
+
+}
+
+/* ESTILIZAÇÃO DOS LINKS EM CADA CAMPO NA LISTA */
+
+.selecao a{
+
+    /* PREENCHIMENTO DO CAMPO DO LINK  */
+
+    padding: 10px;
+    
+    /* TEXTO EM NEGRITO E SEM DECORAÇÃO */
+
+    font-weight: bold;
+    text-decoration: none;
+    
+    /* COR DO TEXTO */
+
+    color: white;
+}
+  
+/* MUDANÇA NA COR DO PREENCHIMENTO E COR DO TEXTO AO PASSAR O MOUSE SOBRE O CAMPO */
+  
+.selecao li a:hover {
+    background-color: darkgray;
+    color: black;
+}

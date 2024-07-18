@@ -1,0 +1,106 @@
+
+/* ARQUIVO CSS PARA ESTILIZAÇÃO DO CORPO DA PÁGINA */
+
+/* CABEÇÁLHO DA PÁGINA */
+
+.header{
+    background-color: rgb(48, 45, 45);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    padding-left: 5%;
+  }
+
+  /* TÍTULO DO CABEÇALHO DA PÁGINA */
+
+  .header h1{
+    align-items: center;
+    
+  }
+  
+  /* CORPO DO SITE */
+
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* MENU AO LADO NO CORPO DO SITE */
+  
+  .menu{
+
+    /* DISPLAY FLEX E ORDENADO EM COLUNA */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+
+    /* COR DE FUNDO E DE TEXTO, ESTILO DE FONTE */
+
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* TAMANHO E ESPAÇAMENTO */
+
+    height: 80vh;
+    width: 15%;
+    overflow: scroll;
+    scrollbar-width: none;
+
+  }
+
+  /* CORPO DO SITE QUE SERÁ EXIBIDO AO MEIO DO SITE A ESQUERDA AO LADO DO MENU */
+  
+  .body{
+
+    /* POSICIONAMENTO DO ELEMENTO */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    /* COR DE FUNDO TAMANHO E ESPAÇAMENTO */
+    
+    background-color: lightblue;
+    width: 100%;
+    height: 80vh;
+
+    /* ALINHANDO OS ELEMENTOS AO CENTRO */
+
+    align-items: center;
+
+    /* SE O TAMANHO DO ELEMENTO ULTRAPASSAR O TAMANHO PADRÃO DA PAGINA ELE ESCONDE 
+    O CONTEÚDO RESTANTE ABAIXO E VOCÊ ACESSA PELA BARRA DE ROLAGEM OCULTA */
+
+    scrollbar-width: none;
+    overflow: scroll;
+  }
+
+  /* DIVIDIR O MENU E O CORPO DO SITE A DIREITA E A ESQUERDA */
+
+  .menu_and_body{
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* ESCONDER A BARRA DE ROLAGEM DE AMBOS OS CAMPOS */
+
+  .menu_and_body::-webkit-scrollbar{
+    display: none;
+  }
+
+  /* RODAPÉ DA PÁGINA */
+
+  .footer{
+    background-color: lightgreen;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .footer h1{
+    margin-inline: 15px;
+  }
+  

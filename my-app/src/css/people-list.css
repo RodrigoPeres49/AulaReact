@@ -1,0 +1,55 @@
+
+/* ESTILIZAÇÃO DA TABELA DE PESSOAS  */
+
+/* CENTRALIZANDO A TABELA NO MEIO DO ELEMENTO */
+
+.people{
+    background-color: lightyellow;
+    display: flex;
+    justify-content: center;
+}
+
+/* COLOCANDO BORDAS NA TABELA */
+
+.people tr, td, table{
+
+    /* DEFINIÇÃO DAS BORDAS DA TABELA */
+
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    /* ALINHAR CADA TEXTO EM CADA ELEMENTO DA TABELA AO CENTRO */
+
+    text-align: center;
+
+    /* PREENCHIMENTO DE CADA ELEMENTO */
+
+    padding: 5px;
+    padding-inline: 30px;
+
+}
+
+/* TEXTO EM NEGRITO NO CABEÇALHO DA TABELA */
+
+.people thead{
+    font-weight: bold;  
+}
+
+/* FONTE MAIOR NO TITULO DA TABELA  */
+
+.people .people-list-title{
+    font-size: 25px;
+}
+
+/* LINKS ACIMA DA TABELA */
+
+.people-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-inline: 15px;
+    margin-block: 5px;
+    background-color: lightgreen;
+    border-radius: 20px;
+    
+}

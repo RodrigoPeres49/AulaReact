@@ -1,0 +1,94 @@
+
+/* ESTILIZAÇÃO DO FORMULÁRIO DE LOGIN (OBS: SERÁ USADO TAMBÉM NO FORMULÁRIO DE CADASTRO) */
+
+
+.login{
+
+    /* CENTRALIZANDO ELEMENTO AO CENTRO DA PÁGINA */
+
+    display: flex;
+    justify-content: center;
+
+    /* REMOVENDO PREENCHIMENTO E BORDAS */
+
+    margin: 0;
+    padding: 0;
+
+    /* TAMANHO DO ELEMENTO NA PÁGINA */
+
+    width: 100%;
+}
+
+/* ESTILIZAÇÃO DO FORMULÁRIO DENTRO DA DIVISÃO DE LOGIN */
+
+.login form{
+
+    /* COR DE FUNDO E BORDAS */
+
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 20px;
+
+    /* POSICIONAMENTO DOS ELEMENTOS E PREENCHIMENTO */
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+/* ESTILIZAÇÃO DE CADA ELEMENTO DENTRO DO FORMULÁRIO */
+
+.login form label, input{
+
+
+    /* TEXTO EM NEGRITO */
+
+    font-weight: bold;
+
+    /* ESPAÇAMENTO ENTRE OS ELEMENTOS E TAMANHO */
+
+    margin-block: 5px;
+    height: 25px;
+
+    /* BORDA ARREDONDADA PARA OS INPUTS */
+
+    border-radius: 10px;
+
+}
+
+/* ESTILIZAÇÃO DOS BOTÕES DO FORMULÁRIO */
+
+.login form button{
+
+    /* COR DE FUNDO E TAMANHO DE FONTE */
+
+    background-color: yellow;
+    font-size: 20px;
+
+    /* ARRENDONDAMENTO DE BORDA E UTILIZAREI O " margin-block " E " margin-bottom " PARA DAR ESPAÇAMENTO ENTRE OS ELEMENTOS */
+
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* VOU CRIAR OUTRA DIV NOMEADA DE "buttons" PARA RETIRAR A ORDENAÇÃO EM COLUNA DOS BUTTONS NO FORMULÁRIO */
+
+.login .buttons button{
+
+    /* ESPAÇAMENTO ENTRE OS BUTTONS */
+
+    margin-inline: 30px;
+
+}
+
+/* TITULO DO FORMULÁRIO ALINHADO AO CENTRO */
+
+.login h1{
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+
+/* ESTILIZAÇÃO DOS DADOS DO USUARIO */
+
+/* VOU CRIAR OUTRA CLASSE CHAMADA " card " QUE SERÁ COMO SE FOSSE UM CARTÃO DE VISITA DO USUÁRIO */
+
+.user-data .card{
+
+    /* COR DE FUNDO DO CARTÃO */
+
+    background-image: linear-gradient(to right, aqua, aquamarine);
+
+    /* PREENCHIMENTO E ESPAÇAMENTO ENTRE OS ELEMENTOS */
+
+    border-radius: 20px;
+    padding: 20px;
+    margin-block: 20px;
+
+}
+
+/* LISTA DENTRO DO CARTÃO DE VISÍTA */
+
+.user-data .card ul{
+
+    /* FONTE EM NEGRITO E SEM DECORAÇÃO NA LISTA */
+
+    font-weight: bold;
+    list-style-type: none;
+
+}
+
+/* CAMPO DENTRO DE "user-data" PARA ENVIAR DOCUMENTOS */
+
+.user-data .send-document{
+
+    /* COR DE FUNDO, PREENCHIMENTO E BORDAS  */
+
+    background-image: linear-gradient(to right, lightyellow, yellow);
+    border-radius: 20px;
+    padding: 20px;
+
+    /* POSICIONAMENTO DOS ELEMENTOS */
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* BOTOES PARA CARREGAR ARQUIVO E ENVIAR DOCUMENTO */
+
+.user-data .send-document button{
+   width: 150px;
+   height: 30px;
+   border-radius: 20px;
+   background-color: aquamarine;
+   font-weight: bold;
+   margin-block: 15px;
+}
+
+.user-data .send-document input[id="fileInput"]{
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: gold;
+}
+
+.user-data ul{
+    list-style-type: circle;
+}
+
+.user-data ul li button{
+    border-radius: 20px;
+    background-color: antiquewhite;
+    font-weight: bold;
+    
+}
