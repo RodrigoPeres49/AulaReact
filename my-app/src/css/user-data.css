@@ -7,11 +7,14 @@
 
     /* COR DE FUNDO DO CARTÃO */
 
-    background-image: linear-gradient(to right, aqua, aquamarine);
+    background-color: #0C332B;
+    color: white;
 
     /* PREENCHIMENTO E ESPAÇAMENTO ENTRE OS ELEMENTOS */
 
     border-radius: 20px;
+    border: none;
+    box-shadow: none;
     padding: 20px;
     margin-block: 20px;
 
@@ -34,7 +37,8 @@
 
     /* COR DE FUNDO, PREENCHIMENTO E BORDAS  */
 
-    background-image: linear-gradient(to right, lightyellow, yellow);
+    background-color: #0C332B;
+    color: white;
     border-radius: 20px;
     padding: 20px;
 
@@ -51,7 +55,10 @@
    width: 150px;
    height: 30px;
    border-radius: 20px;
-   background-color: aquamarine;
+   background-color: #0FB346;
+   color: white;
+   border: none;
+   box-shadow: none;
    font-weight: bold;
    margin-block: 15px;
 }
@@ -60,7 +67,8 @@
     font-weight: bold;
     border-radius: 20px;
     padding: 10px;
-    background-color: gold;
+    background-color: #0FB346;
+    color: white;
 }
 
 .user-data ul{
@@ -69,7 +77,9 @@
 
 .user-data ul li button{
     border-radius: 20px;
-    background-color: antiquewhite;
+    background-color: #0FB346;
+    color: white;
+    border: none;
     font-weight: bold;
     
 }

@@ -1,10 +1,14 @@
 
+
 /* ARQUIVO CSS PARA ESTILIZAÇÃO DO CORPO DA PÁGINA */
+
+/*https://coolors.co/0c332b-669da3-ffffff-0fb346-898980 */
+
 
 /* CABEÇÁLHO DA PÁGINA */
 
 .header{
-    background-color: rgb(48, 45, 45);
+    background-color: #0C332B;
     color: white;
     display: flex;
     flex-direction: row;
@@ -35,20 +39,17 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 0;
-    padding: 0;
 
     /* COR DE FUNDO E DE TEXTO, ESTILO DE FONTE */
 
-    background-color: black;
+    background-color: #669DA3;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     /* TAMANHO E ESPAÇAMENTO */
 
-    height: 80vh;
     width: 15%;
-    overflow: scroll;
+    overflow: hidden;
     scrollbar-width: none;
 
   }
@@ -65,9 +66,8 @@
 
     /* COR DE FUNDO TAMANHO E ESPAÇAMENTO */
     
-    background-color: lightblue;
+    background-color: white;
     width: 100%;
-    height: 80vh;
 
     /* ALINHANDO OS ELEMENTOS AO CENTRO */
 
@@ -85,6 +85,8 @@
   .menu_and_body{
     display: flex;
     flex-direction: row;
+    height: 85vh;
+    max-height: 100%;
   }
 
   /* ESCONDER A BARRA DE ROLAGEM DE AMBOS OS CAMPOS */
@@ -96,9 +98,10 @@
   /* RODAPÉ DA PÁGINA */
 
   .footer{
-    background-color: lightgreen;
+    background-color: #898980;
     display: flex;
     flex-wrap: nowrap;
+    width: 100%;
   }
   .footer h1{
     margin-inline: 15px;
