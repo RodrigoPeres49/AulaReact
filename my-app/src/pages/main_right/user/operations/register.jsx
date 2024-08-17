@@ -18,6 +18,7 @@ const Register = () => {
     const [idade, setIdade] = useState('');
     const [profissao, setProfissao] = useState('');
     const [atestados, setAtestados] = useState([]);
+    const [ativo, setAtivo] = useState(1);
 
     // FUNÇÃO QUE EXECUTA QUANDO O COMPONENTE É MONTADO
     useEffect(() => {
@@ -46,8 +47,10 @@ const Register = () => {
             idade: parseInt(idade),
             profissao,
             matricula: novaMatricula,
-            atestados
+            atestados,
+            ativo
         };
+    
 
         // FAZ UMA REQUISIÇÃO POST PARA ADICIONAR A NOVA PESSOA
         axios.post('/pessoas', novaPessoa)
@@ -62,6 +65,7 @@ const Register = () => {
                 setIdade('');
                 setProfissao('');
                 setAtestados([]);
+                setAtivo(1);
             })
             .catch(error => {
 
